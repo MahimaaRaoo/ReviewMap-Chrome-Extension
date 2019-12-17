@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "ReviewMap",
+    "description": "Memex for Chrome",
+    "version": "1.0.2",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png", 
+        "128": "icon.png"
+    },
+
+    "permissions": [
+        "storage","declarativeContent","activeTab","tabs",
+    "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "oauth2":{  
+      "client_id":"396151639227-omj4n0kbo7ej8rt9jntqvv88qvb47lb4.apps.googleusercontent.com",
+        "scopes":[  
+           "https://www.googleapis.com/auth/spreadsheets"
+        ]
+     },
+     "key":"MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDSPWyC9OmoHlwWMHJ32TLRpfpVei+WPjNQfsBPbs5pHaHtbbUgDTZd/DivYXjZ2o3lMTQUXf2EoplnLBgidMRV7yHprFlOXp+LCIqT7tdAQDI00+5LnTvg2LHd/W58KTtwOav8vCePKOxMUOehRXortCSQyG8GHUz0t4HN9oe3FOu/9ugvVyCMABPadC0Xss7x2Aha8oEselap/4grZ3B46zDNpb7f+hktplSvlHATPu/kI4zrRFjU3QQFZ+3IkgPWLKeD4jYOFaWUh1m4VT1U6pb2VpEyKSjhev89minmFMG7BQ+y4fBuBzt2R9OhVDefqnHssqJ4mMvyi66AI4WjAgMBAAECggEACRYniPdt29rIDxtz7xMfm6kJS0V3Jg61KA76X9SBrlBeDcV2lRaNGX3Ls2TKlNvZ0ySPxCuVx/RBHhDtUBvs2mv18sQErhrv2VH6r08c1YWQxfC89V6r1ll3QolwC4S6sWyEru0w5oKVx+ydPj6i+52TEQDgr4p3p4IA5bZ4giScwXSO7kR62uNZR7W78PZJ8mrn9kKQw9b1kMDC+P8GC7XjpKVtD/R/vlJsyfz2P+nJp0SLIOnekYqAa9ya4jC2nlQSlJf8FfwLFLD5VG9HQIm20H9/4qQMx/0XITZtECzf6Ohf27zUBoFMC8gryMjpUZF8jZsNc9/y0ePgwcF07QKBgQD0DZAtOINncFUcKG6esFnJf8l3ILpXMsatMXa2li69UR1dItNpwjYFD5sN1PYTiL+MYSktqLLFfUxfjTWyEfDYsIGo2HYdHND4TyU32EBcsnwJjUuvpO/1IhXM1cNjKRUOVMNKs1ViUeTnBZyleN3k987Fl4dXV5lvZ7hSh/mf5QKBgQDciB7X/eJ9MslddRrII3OxAyyssBJiEICbK/QUK1ebF+cxBq+nMQ5xZ7u7lkTdQLMI2yAdbCS3DNCW4TcATq8x1Nn0iDaqujcowOHKn0UIawhBkA7eSQm2+agRKeyIaZWK1rVi1gC210fsUNXg7shJqi4tv3IlT8cgucKJDoNm5wKBgQChSSFiMTnuLzef/zxz1RnRZ4kOGGvtWpogNVM+AWxsIuIj/fL3rqiimZigAICLklD8he1/xkA28cJ6V0kIIIEpwyQ9IKiWPsf/gdaX3GtUl4QPj/hX4MnQF7GOiCqzKqBGs0/I21FvQ63h2zyVwpXqTrawsJ5542N8U3Bl4oTe3QKBgCe+dGiSvdW4aGfqaeg102zMWKnKlZWMydCtTDCyWvh9h1HjlZZ5FdREUKYO/9wsA9gNvazvx3Ih4hm+/u2UQKinZpxWTBvasYQrtsWQjJ1mxLckIjnXSePq/GoTdyhiduvtpATq8ngBNloVe2YtQnVcMTRXc1fcF9QDBlczAWVzAoGBALbHcBNVsFsx/WrRzYPTm6YCL+jmd0+5KoaRjZYXKyXal9A1FUjs4Lj6eC137NnQEBzOrZfAibPQ8NmYi8rzFo4YEIBvulfSjQDfZheVyjTkaZN/kgdG+FjCEQXsW5WTLaLV3qD8aLRFTngT/DQf6oNz0EVe52yYUb48TMBLXoDq"
+}
